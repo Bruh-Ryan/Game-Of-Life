@@ -17,7 +17,7 @@ def create_grid(rows, columns, unit_size):
     for r in range(rows):
         row_labels = []
         for c in range(columns):
-            label = tk.Label(root, borderwidth=1, relief="solid", width=3, height=5, bg="black")
+            label = tk.Label(root, borderwidth=1, relief="solid", width=5, height=3, bg="black")
             label.grid(row=r, column=c, padx=1, pady=1)
             label.row = r  
             label.col = c  
